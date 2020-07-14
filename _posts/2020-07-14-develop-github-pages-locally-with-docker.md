@@ -1,7 +1,4 @@
----
-layout: post
-title: Develop Github Pages locally with docker
----
+## Develop Github Pages locally with docker
 
 [The official github pages documentation][1] explains how you can test your Github Pages using Jekyll locally. I had a hard time installing all dependencies. A faster and easier way is to use the [docker image provided by Jekyll][2]. Make sure you are using the image with the **pages** tag: `jekyll/jekyll:pages`.
 
